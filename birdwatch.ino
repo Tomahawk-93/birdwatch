@@ -7,6 +7,7 @@
 #include "esp_camera.h"
 #include "soc/soc.h"
 #include "soc/rtc_cntl_reg.h"
+#include "secrets.h"
 
 #if __has_include("secrets.h")
 #include "secrets.h"
